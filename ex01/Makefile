@@ -1,5 +1,5 @@
 NAME = a.out
-CPPFLAGS = -Wall -Wextra -Werror -std=c++17
+CPPFLAGS = -Wall -Wextra -Werror -std=c++17 #-g
 SRC = Animal.cpp Cat.cpp Dog.cpp Brain.cpp main.cpp
 
 all: $(NAME)
