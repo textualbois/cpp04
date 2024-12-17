@@ -13,6 +13,8 @@ void test5();
 void test6();
 
 int main() {
+	//Animal* a = new Animal(); // <- no compile
+	//Animal b; // <- no compile
 	//test0(); // destructor test
 	//test1(); // array desctructor test
 	//test2(); // brain limit test dog

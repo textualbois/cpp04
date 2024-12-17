@@ -37,12 +37,7 @@ Animal&	Animal::operator=(Animal const& otherAnimal)
 
 // MEMBER FUNCTIONS //
 
-void	Animal::makeSound() const
-{
-	std::cout << "Animal sound" << std::endl;
-}
-
-std::string Animal::getType() const 
+std::string Animal::getType() const
 {
 	return type;
 }
