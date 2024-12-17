@@ -62,9 +62,12 @@ void MateriaSource::learnMateria(AMateria* m)
 		if (!library[i])
 		{
 			library[i] = m;
+			// std::cout << "Materia \"" << m->getType() << "\" is learned." << std::endl;
 			return;
 		}
 	}
+	std::cout << "Library is full. Materia \"" << m->getType() << "\" will be removed." << std::endl;
+	delete m;
 }
 
 AMateria* MateriaSource::createMateria(std::string const& type)

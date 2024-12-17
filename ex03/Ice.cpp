@@ -2,7 +2,7 @@
 
 // CONSTRUCTORS/DESTRUCTORS //
 
-Ice::Ice() : AMateria("Ice")
+Ice::Ice() : AMateria("ice")
 {
 	// std::cout << "Ice default constructor is called" << std::endl;
 }

@@ -1,6 +1,6 @@
 NAME = a.out
-CPPFLAGS = -Wall -Wextra -Werror -std=c++17
-SRC = main.cpp AMateria.cpp Character.cpp Cure.cpp Ice.cpp MateriaSource.cpp
+CPPFLAGS = -Wall -Wextra -Werror -std=c++17 #-g
+SRC = main.cpp AMateria.cpp Character.cpp Cure.cpp Ice.cpp MateriaSource.cpp Floor.cpp
 
 all: $(NAME)
 

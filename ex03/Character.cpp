@@ -85,6 +85,7 @@ void Character::equip(AMateria* m)
 		}
 	}
 	std::cout << "Inventory is full" << std::endl;
+	delete m;
 }
 
 void Character::unequip(int idx)
@@ -99,6 +100,7 @@ void Character::unequip(int idx)
 		else
 		{
 			std::cout << "AMateria " << inventory[idx]->getType() << " is unequiped from slot " << idx << std::endl;
+			Floor::getInstance().dropMateria(inventory[idx]);
 			inventory[idx] = nullptr;
 		}
 	}

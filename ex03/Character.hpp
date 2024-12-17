@@ -2,6 +2,7 @@
 # define CHARACTER_HPP
 
 #include "ICharacter.hpp"
+#include "Floor.hpp"
 
 #define INV_SIZE 4
 
